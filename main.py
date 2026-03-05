@@ -58,6 +58,7 @@ def start_guard():
             print(f"{RED}⚠️  ANOMALY DETECTED! Traffic Spike: {speed:.2f} KB/s{RESET}")
         else:
             print(f"   Normal Activity: {speed:.2f} KB/s")
+            obs
             
         old_value = new_value
 
