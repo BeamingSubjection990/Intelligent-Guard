@@ -61,6 +61,7 @@ def start_guard():
             obs
             
         old_value = new_value
+        #
 
 if __name__ == "__main__":
     try:
